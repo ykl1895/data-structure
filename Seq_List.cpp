@@ -10,12 +10,12 @@ using namespace std;
 
 #define MAXSIZE 1024
 
-// 
+//åˆå§‹åŒ–
 typedef struct{
-	int data[MAXSIZE];//Êı×é´æ´¢Êı¾İÔªËØ 
-	int length;//ÏßĞÔ±íµ±Ç°³¤¶È 
+	int data[MAXSIZE];//æ•°ç»„å­˜å‚¨æ•°æ®å…ƒç´  
+	int length;//çº¿æ€§è¡¨å½“å‰é•¿åº¦ 
 } Seque_List;
-//³õÊ¼»¯ 
+ 
 bool init_list(Seque_List &L){
 	L.length=0;
 	int list_data,i=0;
@@ -27,7 +27,7 @@ bool init_list(Seque_List &L){
 	return true;
 }
 
-//´òÓ¡ÄÚÈİ
+//æ‰“å°å†…å®¹
 bool list_print(Seque_List L){
 	cout<<"The length of List: "<<L.length<<endl;
 	cout<<"The elements of List: ";
@@ -37,7 +37,7 @@ bool list_print(Seque_List L){
 	return true;
 }
 
-//²åÈë²Ù×÷
+//æ’å…¥æ“ä½œ
 bool list_insert(Seque_List &L,int x,int i){
 	if(L.length>=MAXSIZE||i>=MAXSIZE) return false;
 	else{
@@ -53,7 +53,7 @@ bool list_insert(Seque_List &L,int x,int i){
 	}
 }
 
-//É¾³ı²Ù×÷ 
+//åˆ é™¤æ“ä½œ 
 bool list_delete(Seque_List &L,int i){
 	if(i<0||i>=L.length) return false;
 	else{
