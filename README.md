@@ -9,3 +9,9 @@
   2. 静态连表
   3. 循环链表
   4. 双向链表
+### 栈
+* [顺序栈及两栈共享空间](https://github.com/MyGodot/data-structure/blob/master/stack_seq.cpp)
+* [链式栈]()
+### 队列
+* [顺序队列及循环队列](https://github.com/MyGodot/data-structure/blob/master/queue_seq.cpp)
+* [链式队列](https://github.com/MyGodot/data-structure/blob/master/queue_chain.cpp)
