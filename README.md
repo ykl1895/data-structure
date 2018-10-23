@@ -15,3 +15,12 @@
 ### 队列
 * [顺序队列及循环队列](https://github.com/MyGodot/data-structure/blob/master/queue_seq.cpp)
 * [链式队列](https://github.com/MyGodot/data-structure/blob/master/queue_chain.cpp)
+### 串
+* [KMP模式匹配算法](https://github.com/MyGodot/data-structure/blob/master/Algorithm_KMP.cpp)
+* 串的链式结构除了在串连接和串操作时有一定方便之外，不如顺序存储灵活，性能也没有顺序存储结构好
+### 树
+* [双亲表示法](https://github.com/MyGodot/data-structure/blob/master/parent_tree.cpp)
+* [孩子表示法](https://github.com/MyGodot/data-structure/blob/master/child_tree.cpp)
+* [双亲孩子表示法](https://github.com/MyGodot/data-structure/blob/master/parent_child_tree.cpp)
+* 孩子兄弟表示法——>二叉树
+#### 二叉树
