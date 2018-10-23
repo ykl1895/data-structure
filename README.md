@@ -24,3 +24,6 @@
 * [双亲孩子表示法](https://github.com/MyGodot/data-structure/blob/master/parent_child_tree.cpp)
 * 孩子兄弟表示法——>二叉树
 #### 二叉树
+* 二叉树的五种基本形态
+* 特殊二叉树: 斜树|满二叉树|完全二叉树
+* 二叉树的五个性质
